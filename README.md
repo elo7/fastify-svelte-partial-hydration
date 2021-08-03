@@ -1,5 +1,8 @@
 # Fastify Svelte Partial Hydration
 
+This plugin will help you add partially hydrated pages
+to your `fastify-svelte` application.
+
 ## Table of contents
 
 1. [Installation](#installation)
