@@ -14,9 +14,9 @@ To install this plugin, run the command:
 
 ```bash
 # npm
-npm install --save @elo7/fastify-svelte-partial-hydration-plugin
+npm install --save @elo7/fastify-svelte-partial-hydration
 # yarn
-yarn add @elo7/fastify-svelte-partial-hydration-plugin
+yarn add @elo7/fastify-svelte-partial-hydration
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ the default export of the plugin to the `plugins` array for the `fastify-svelte`
 
 ```javascript
 import sveltePartialHydration from
-'@elo7/fastify-svelte-parital-hydration-plugin`;
+'@elo7/fastify-svelte-parital-hydration`;
 
 app.register(sveltePlugin, {
 	plugins: [sveltePartialHydration],
@@ -117,7 +117,7 @@ DOM's element where the component will be mounted, and call the Svelte
 component constructor:
 
 ```javascript
-import hydrate from '@elo7/fastify-svelte-partial-hydration-plugin/hydrate';
+import hydrate from '@elo7/fastify-svelte-partial-hydration/hydrate';
 
 const componentBuilder = ({ component, element, props }) => {
 	new window[component]({
@@ -155,7 +155,7 @@ the name of the component, the component itself and the props object that will
 be passed to the components.
 
 ```javascript
-import Hydrate from '@elo7/fastify-svelte-partial-hydration-plugin/Hydrate.svelte';
+import Hydrate from '@elo7/fastify-svelte-partial-hydration/Hydrate.svelte';
 import SearchBar from './SearchBar.svelte';
 
 <Hydrate
