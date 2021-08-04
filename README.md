@@ -27,7 +27,7 @@ and to use the hydration component.
 #### Steps
 1. [Register](#register)
 2. [Register hydratable-components](#register-hydratable-components)
-3. [Hydration script](#hydration-ccript)
+3. [Hydration script](#hydration-script)
 4. [Hydration component](#hydration-component)
 
 #### Register
