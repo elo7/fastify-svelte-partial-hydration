@@ -2,7 +2,7 @@ export default {
 	stage: 'postRender',
 	key: 'componentsToHydrate',
 	apply: ({ html }) => {
-		const attrRegex = /data-component=(['"])(?<name>[A-Za-z]+)\1/g;
+		const attrRegex = /data-component=(['"])(?<name>[A-Za-z0-9]+)\1/g;
 		const matches = new Set();
 		let match = null;
 
