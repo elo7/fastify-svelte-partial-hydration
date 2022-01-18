@@ -1,6 +1,6 @@
 {
 	"name": "@elo7/fastify-svelte-partial-hydration",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "Fastify plugin for using Svelte with partial hydration support",
 	"repository": "https://github.com/elo7/fastify-svelte-partial-hydration",
 	"main": "index.js",
